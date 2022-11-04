@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.table.HelloController">
+   <children>
+      <TableView prefHeight="348.0" prefWidth="600.0">
+        <columns>
+          <TableColumn prefWidth="104.0" text="Food Id" />
+          <TableColumn prefWidth="93.60003662109375" text="Food Item" />
+            <TableColumn prefWidth="104.79998779296875" text="Quantity" />
+            <TableColumn prefWidth="100.79998779296875" text="Calories" />
+            <TableColumn prefWidth="92.79998779296875" text="Time of Day" />
+            <TableColumn prefWidth="108.00006103515625" text="Time Stamp" />
+        </columns>
+      </TableView>
+      <Button fx:id="track" layoutX="507.0" layoutY="360.0" mnemonicParsing="false" onAction="#onbuttonTrack" text="Track" />
+   </children>
+</AnchorPane>
+
